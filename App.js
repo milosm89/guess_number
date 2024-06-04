@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { ImageBackground, StyleSheet, SafeAreaView, StatusBar } from 'react-native';
+import { ImageBackground, StyleSheet, SafeAreaView } from 'react-native';
+import { StatusBar } from "expo-status-bar";
 import {LinearGradient} from 'expo-linear-gradient';
 import * as SplashScreen from 'expo-splash-screen';
 import { useFonts } from 'expo-font';
